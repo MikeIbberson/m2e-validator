@@ -9,6 +9,10 @@
     "testEnvironment": "node",
     "preset": "q3-test-utils"
   },
+  "scripts": {
+    "test": "jest --collectCoverage",
+    "lint": "eslint lib/* --fix"
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "body-parser": "^1.19.0",

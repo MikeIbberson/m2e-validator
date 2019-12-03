@@ -1,6 +1,6 @@
 {
   "name": "m2e-validator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Convert mongoose schema into an express-validator chain",
   "main": "lib/index.js",
   "author": "Mike <mibberson@3merge.ca>",

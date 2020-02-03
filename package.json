@@ -5,13 +5,8 @@
   "main": "lib/index.js",
   "author": "Mike <mibberson@3merge.ca>",
   "license": "MIT",
-  "jest": {
-    "testEnvironment": "node",
-    "preset": "q3-test-utils",
-    "rootDir": "lib"
-  },
   "scripts": {
-    "test": "jest --collectCoverage",
+    "test": "jest --config jest.config.js",
     "lint": "eslint lib/* --fix"
   },
   "devDependencies": {

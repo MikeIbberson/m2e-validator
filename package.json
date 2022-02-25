@@ -28,6 +28,7 @@
     "supertest": "^4.0.2"
   },
   "dependencies": {
+    "clean-object-helper": "^1.0.0",
     "express-validator": "^6.3.0",
     "lodash": "^4.17.15"
   }
